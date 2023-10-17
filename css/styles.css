@@ -1,0 +1,41 @@
+/* Base */
+body{
+font-family: 'Montserrat', sans-serif;
+}
+
+.list{
+list-style-type: none;
+}
+
+.link{
+text-decoration: none;
+}
+
+/* Header */
+.logo{
+color: var(--black, #111);
+font-size: 18px;
+font-weight: 700;
+line-height: 1.11px; 
+letter-spacing: -0.54px;
+}
+
+.logo-span{
+font-style: italic;
+}
+
+.nav-link{
+color: var(--black, #111);
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.14px;
+letter-spacing: -0.28px;
+}
+
+.nav-link:hover,
+.nav-link:focus{
+color: #FD9222;
+}
+
+
