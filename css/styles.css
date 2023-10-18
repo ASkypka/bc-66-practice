@@ -1,18 +1,38 @@
 /* Base */
 body {
   font-family: "Montserrat", sans-serif;
+  margin: 0;
 }
 
 .list {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .link {
   text-decoration: none;
 }
 
+.container {
+  max-width: 1200px;
+  padding-left: 32px;
+  padding-right: 32px;
+  margin: 0 auto;
+}
 /* Header */
+.header-container {
+  display: flex;
+  align-items: center;
+
+}
+
 .logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-right: auto;
+  padding: 30px 0;
   color: var(--black, #111);
   font-size: 18px;
   font-weight: 700;
@@ -23,8 +43,20 @@ body {
 .logo-span {
   font-style: italic;
 }
+.header-nav-list {
+  margin-right: 90px;
+  display: flex;
+  gap: 24px;
+}
+
+.header-icons-list {
+  display: flex;
+  gap: 14px;
+}
 
 .nav-link {
+  display: block;
+  padding: 32px 0;
   color: var(--black, #111);
   font-size: 14px;
   font-style: normal;
